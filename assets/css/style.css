@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+/*--HEADER--*/
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #446df6;
+}
+header .container {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .container ul {
+  display: flex;
+}
+header .container ul a {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 50px;
+  color: whitesmoke;
+}
+
+/*-- SECTION 1 --*/
+sec1 {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/background_image.jpg);
+}
